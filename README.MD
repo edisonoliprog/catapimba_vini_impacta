@@ -10,7 +10,7 @@ agent any
   stages {
     stage('Clone') {
       steps {
-        git url: 'https://github.com/edisonoliprog/catapimba-network.git', branch: 'main'
+        git url: 'https://github.com/edisonoliprog/catapimba_vini_impacta', branch: 'main'
       }
     }
 
